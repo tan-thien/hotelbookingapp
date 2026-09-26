@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/recTitle"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Title"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/recTitle"
+            android:maxLines="1"
+            android:text="desc"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+
+        <!--Thêm ImageButton cho nút xóa-->
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavender_border"
+            android:backgroundTint="#FF0202"
+            android:src="@drawable/baseline_delete_24" />
+        <!--Drawable cho nút xóa có thể là một icon bạn tự định nghĩa-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

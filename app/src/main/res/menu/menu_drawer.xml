@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/DrawerRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Quản lý phòng" />
+        <item
+            android:id="@+id/Drawerservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/pngtreeroom_service_line_icon_vector_5199704"
+            android:title="Quản lý dịch vụ" />
+        <item
+            android:id="@+id/DrawerBookingRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="quản lý đơn đặt phòng" />
+        <item
+            android:id="@+id/DrawerTypeRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Quản lý loại phòng" />
+        <item
+            android:id="@+id/DrawerCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Quản lý khách hàng" />
+        <item
+            android:id="@+id/DrawerDoanhthu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Quản lý doanh thu" />
+        <item
+            android:id="@+id/DrawerVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Quản lý voucher" />
+    </group>
+</menu>
